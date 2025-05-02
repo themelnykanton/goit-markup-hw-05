@@ -542,12 +542,15 @@ textarea {
 .footer-usermail {
   background-color: transparent;
   color: var(--white);
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-size: 12px;
 
   border: 1px solid var(--white);
   border-radius: 4px;
   min-width: 264px;
   height: 40px;
-  padding: 8px 18px;
+  padding-left: 16px;
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -560,7 +563,6 @@ textarea {
   letter-spacing: 0.04em;
   color: var(--white);
 }
-
 
 .footer-button {
   display: flex;
