@@ -806,6 +806,7 @@ textarea {
  .modal-checkbox-wrapper:has(input:checked) span {
   background-color: var(--ocean);
   border: none;
+  fill: var(--cloud);
  }
 
  .modal-checkmark {
