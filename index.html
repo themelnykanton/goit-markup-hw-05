@@ -514,7 +514,7 @@
 
     <div class="modal-overlay">
       <div class="modal">
-        <button type="submit" class="modal-close-button">
+        <button type="button" class="modal-close-button">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -523,56 +523,61 @@
         <h3 class="modal-heading">Leave your contacts and we will call you back</h3>
 
         <form class="modal-form">
-          <label for="username" class="modal-label">Name</label>
-          <div class="modal-input-wrapper">
-            <input 
-              type="text" 
-              name="username" 
-              id="username" 
-              class="modal-input modal-username"
-            >
-
-            <svg class="modal-icon" width="18" height="18">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+          <div class="modal-form-wrapper">
+            <label for="username" class="modal-label">Name</label>
+            <div class="modal-input-wrapper">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                class="modal-input modal-username"
+              >
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
 
           </div>
 
-          <label for="phone-number" class="modal-label">Phone</label>
-          <div class="modal-input-wrapper">
-            <input 
-              type="tel" 
-              name="phone_number" 
-              id="phone-number" 
-              class="modal-input modal-phone"
-            >
-
-            <svg class="modal-icon" width="18" height="18">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
+          <div class="modal-form-wrapper">
+            <label for="phone-number" class="modal-label">Phone</label>
+            <div class="modal-input-wrapper">
+              <input
+                type="tel"
+                name="phone_number"
+                id="phone-number"
+                class="modal-input modal-phone"
+              >
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
 
-          <label for="usermail" class="modal-label">Email</label>
-          <div class="modal-input-wrapper">
-            <input 
-              type="email" 
-              name="usermail" 
-              id="usermail" 
-              class="modal-input modal-usermail"
-            >
-
-            <svg class="modal-icon" width="18" height="18">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
+          <div class="modal-form-wrapper">
+            <label for="usermail" class="modal-label">Email</label>
+            <div class="modal-input-wrapper">
+              <input
+                type="email"
+                name="usermail"
+                id="usermail"
+                class="modal-input modal-usermail"
+              >
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
 
-          <label for="comment" class="modal-label">Comment</label>
-          <div class="modal-input-wrapper">
-            <textarea
-              name="comment"
-              id="comment"
-              class="modal-input modal-comment"
-              placeholder="Text input"></textarea>
+          <div class="modal-form-wrapper">
+            <label for="comment" class="modal-label">Comment</label>
+            <div class="modal-input-wrapper">
+              <textarea
+                name="comment"
+                id="comment"
+                class="modal-input modal-comment"
+                placeholder="Text input"></textarea>
+            </div>
           </div>
 
           <div class="modal-checkbox-wrapper">
